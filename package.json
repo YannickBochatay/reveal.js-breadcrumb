@@ -14,7 +14,7 @@
     "reveal",
     "breadcrumb"
   ],
-  "authors": ["Yannick Bochatay"],
+  "authors": "Yannick Bochatay",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/YannickBochatay/reveal.js-breadcrumb/issues"

@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <title>Reveal.js Breadcrumb</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css">
-    <link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/white.css">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./reveal.css">
+    <link rel="stylesheet" href="./white.css">
     <script type="importmap">
       {
         "imports": {
-          "reveal.js" : "/node_modules/reveal.js/dist/reveal.esm.js",
-          "reveal.js/plugin/markdown/markdown.esm.js" : "/node_modules/reveal.js/plugin/markdown/markdown.esm.js",
+          "reveal.js" : "./reveal.esm.js",
+          "reveal.js/plugin/markdown/markdown.esm.js" : "./markdown.esm.js",
           "reveal.js-breadcrumb/index.js" : "../index.js"
         }
       }
@@ -19,15 +18,13 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <header>
-    </header>
-    <main class="reveal">
+    <div class="reveal">
       <div class="slides">
         <section
           data-markdown="slides.md"
           data-separator-vertical="\r?\n\|\|\|\r?\n"
         ></section>
       </div>
-    </main>
+    </div>
   </body>
 </html>
