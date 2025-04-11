@@ -1,0 +1,26 @@
+{
+  "name": "reveal.js-breadcrumb",
+  "version": "0.0.1",
+  "description": "A breadcrumb for navigating reveal.js presentations",
+  "main":"index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YannickBochatay/reveal.js-breadcrumb.git"
+  },
+  "keywords": [
+    "reveal",
+    "breadcrumb"
+  ],
+  "authors": ["Yannick Bochatay"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YannickBochatay/reveal.js-breadcrumb/issues"
+  },
+  "homepage": "https://github.com/YannickBochatay/reveal.js-breadcrumb",
+  "devDependencies": {
+    "reveal.js": "^5.2.1"
+  }
+}

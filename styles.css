@@ -1,0 +1,37 @@
+body {
+  display:flex;
+  flex-direction: column;
+  width:100vw;
+  height:100vh;
+  margin:0;
+}
+
+main {
+  flex:1;
+}
+
+ul.breadcrumb {
+  list-style: none;
+  padding:0 0 0 5px;
+  margin:0;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size:16px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li > a {
+  color:var(--r-link-color);
+}
+
+ul.breadcrumb li > a:hover {
+  color:var(--r-link-color-hover);
+}
