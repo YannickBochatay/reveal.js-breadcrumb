@@ -37,13 +37,13 @@ class Breadcrumb {
   }
 
   update({
-    slide = document.querySelector("section"),
+    currentSlide = document.querySelector("section"),
     indexh = 0
   } = {}) {
-    const currentTitle = this.#getTitle(slide)
+    const currentTitle = this.#getTitle(currentSlide)
     const breadcrumb = [{ text : currentTitle.text }]
 
-    let section = slide
+    let section = currentSlide
     let currentType = currentTitle.type
     let currentIndex = indexh
 

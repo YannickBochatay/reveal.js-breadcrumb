@@ -1,5 +1,5 @@
 # reveal.js-breadcrumb
-Tree menu plugin for reveal.js presentations.
+Breadcrumb plugin for reveal.js presentations.
 
 
 ## Installation
