@@ -1,16 +1,16 @@
-# reveal.js-breadcrumb
+# reveal.js-breadcrumb-yb
 Breadcrumb plugin for reveal.js presentations.
 
 
 ## Installation
 ```sh
-npm install reveal.js-breadcrumb
+npm install reveal.js-breadcrumb-yb
 ```
 
 ## Usage
 ```javascript
 import Reveal from 'reveal.js'
-import Breadcrumb from 'reveal.js-breadcrumb/index.js'
+import Breadcrumb from 'reveal.js-breadcrumb-yb/index.js'
 
 let deck = new Reveal({
   plugins: [Breadcrumb]
